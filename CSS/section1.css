@@ -1,0 +1,34 @@
+body{
+    background-color: pink;
+}
+.section1
+{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    
+}
+h1
+{
+    color: mediumturquoise;
+}
+button
+{
+    height: 50px;
+    width:100px;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+button:hover
+{
+    background-color: #4CAF50;
+    color: white;
+}
